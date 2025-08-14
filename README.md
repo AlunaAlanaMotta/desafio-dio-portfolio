@@ -77,3 +77,10 @@ O site está dividido nas seguintes seções:
 1. Clone o repositório:  
    ```bash
    git clone https://github.com/AlunaAlanaMotta/portfolio.git
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd portfolio
+3. Abra o arquivo index.html em seu navegador ou utilize um servidor local como o Live Server no VS Code.
+
+## Para abrir basta acessar o link: 
+
