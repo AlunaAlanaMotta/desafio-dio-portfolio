@@ -82,5 +82,4 @@ O site está dividido nas seguintes seções:
    cd portfolio
 3. Abra o arquivo index.html em seu navegador ou utilize um servidor local como o Live Server no VS Code.
 
-## Para abrir basta acessar o link: 
-
+- Veja meu portfólio ao vivo: [Clique aqui](https://desafio-dio-portfolio.vercel.app/)
