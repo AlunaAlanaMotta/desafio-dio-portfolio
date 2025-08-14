@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alana Motta</title>
+    <link rel="stylesheet" href="assets/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <meta
+      name="description"
+      content="Portfólio de Alana Motta, Desenvolvedora Front-end."
+    />
+  </head>
+  <body>
+    <div class="cursor">&lt; &gt;</div>
+
+    <header class="header">
+      <button id="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+
+      <nav id="menu" class="menu">
+        <div class="logo">
+          <img src="assets/img/logoAM.png" alt="Logo Alana Motta" />
+        </div>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+            <li><a href="#vida-academica">Vida Acadêmica</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="title-main">
+          Transformo linhas de código em interfaces intuitivas, acessíveis e que
+          conectam pessoas à tecnologia de forma inteligente.
+        </h1>
+        <p>Alana Motta, Curitiba-PR, Desenvolvedora Front-end.</p>
+        <div class="hero-icons">
+          <a href="https://github.com/AlunaAlanaMotta"><img src="assets/img/github.png" alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/alana-motta-da-cruz-dev"><img src="assets/img/linkedin.png" alt="LinkedIn" /></a>
+          <a href="https://www.instagram.com/mottaalana0?igsh=MTZha2dmeGpoMHRqeQ=="><img src="assets/img/instagram.png" alt="Instagram" /></a>
+        </div>
+
+        <a
+          class="btn-curriculo"
+          href="assets/arquivos/AlanaMottaCurrícuo2025.pdf"
+          target="_blank"
+          >📄 Baixar Currículo</a
+        >
+      </div>
+    </section>
+    
+
+    <section class="tec-img">
+        <h2 class="title-1">Sobre Mim</h2>
+      <img src="assets/img/euperfil.jpeg" alt="minha foto de perfil" />
+    </section>
+
+    <section class="about" id="sobre">
+      
+      <p>
+        Atualmente atuo como consultora de vendas e estou em transição de
+        carreira para a área da tecnologia. Me apaixonei pelo desenvolvimento
+        front-end, onde encontrei a oportunidade de aplicar minha criatividade
+        na construção de interfaces intuitivas e funcionais. Sou formada em
+        Gestão da Tecnologia da Informação pela PUCPR, com conclusão em 2024, e sigo me
+        especializando continuamente para ingressar na área com segurança e
+        preparo.
+      </p>
+    </section>
+    <section class="skills-section" id="skills">
+      <h2>Soft Skills</h2>
+      <div class="soft-skills-grid">
+        <div class="skill-card">
+          <i class="fas fa-comments"></i> Comunicação
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-users"></i> Trabalho em equipe
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-seedling"></i> Resiliência
+        </div>
+        <div class="skill-card"><i class="fas fa-bullseye"></i> Foco em soluções</div>
+        <div class="skill-card">
+          <i class="fas fa-calendar-check"></i> Organização
+        </div>
+        <div class="skill-card"><i class="fas fa-bolt"></i> Proatividade</div>
+      </div>
+
+      <h2>Hard Skills</h2>
+      <div class="hard-skills-grid">
+        <div class="skill-card"><i class="fab fa-html5"></i> HTML</div>
+        <div class="skill-card"><i class="fab fa-css3-alt"></i> CSS</div>
+        <div class="skill-card">
+          <i class="fab fa-js-square"></i> JavaScript
+        </div>
+        <div class="skill-card"><i class="fab fa-react"></i> React</div>
+        <div class="skill-card">
+          <i class="fab fa-git-alt"></i> Git e GitHub
+        </div>
+        <div class="skill-card"><i class="fas fa-database"></i> SQL</div>
+        <div class="skill-card"><i class="fab fa-python"></i> Python</div>
+        <div class="skill-card"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+      </div>
+    </section>
+    <section id="vida-academica">
+      <h2 class="title-1">Vida Acadêmica</h2>
+      <div class="academic">
+        <img src="assets/img/desenho1.jpg" alt="Desenho representando a vida acadêmica" />
+        <p>Para saber mais sobre minha trajetória acadêmica</p>
+        <button class="btn-academico">
+          <a
+            href="vidaAcademica.html"
+            >Clique aqui</a
+          >
+      </div>
+    </section>
+
+    <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn prev">&#10094;</button>
+
+            <ul class="carousel">
+            <li class="project-card">
+                <h3>Decodificador de Textos</h3>
+                <p>Ferramenta para criptografar e descriptografar mensagens.</p>
+                <div class="link_projetos">
+                <a class="btn-2" href="https://decodificador-orpin.vercel.app/" target="_blank">Ver demo</a>
+                <a class="btn-2" href="https://github.com/AlunaAlanaMotta/decodificador" target="_blank">Repositório</a>
+                </div>
+            </li>
+
+            <li class="project-card">
+                <h3>Jogo Número Secreto</h3>
+                <p>Adivinhe o número secreto em um jogo divertido e interativo.</p>
+                <div class="link_projetos">
+                <a class="btn-2" href="https://jogo-numero-secreto-umber-phi.vercel.app/" target="_blank">Ver demo</a>
+                <a class="btn-2" href="https://github.com/AlunaAlanaMotta/jogo-numero-secreto" target="_blank">Repositório</a>
+                </div>
+            </li>
+
+            <li class="project-card">
+                <h3>Primeira Página de Portfólio</h3>
+                <p>Meu primeiro projeto web para apresentar habilidades e projetos.</p>
+                <div class="link_projetos">
+                <a class="btn-2" href="https://sobre-mim-khaki.vercel.app/index.html" target="_blank">Ver demo</a>
+                <a class="btn-2" href="https://github.com/AlunaAlanaMotta/sobre-mim" target="_blank">Repositório</a>
+                </div>
+            </li>
+            </ul>
+
+            <button class="carousel-btn next">&#10095;</button>
+        </div>
+    </section>
+
+
+    <section id="contato" class="contact">
+      <h2>Contato</h2>
+
+      <form class="contact-form" action="#" method="post">
+        <input type="text" name="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <textarea
+          name="mensagem"
+          rows="5"
+          placeholder="Sua mensagem"
+          required
+        ></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p>
+        Ou envie um e-mail para:
+        <a href="mailto:mottaalana0@gmail.com">Alana</a>
+      </p>
+    </section>
+    <footer class="footer">
+      <div class="social">
+        <p>Você pode me encontrar nas redes sociais:</p>
+        <div class="social-links">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/alana-motta-da-cruz-dev" target="_blank"
+                ><i class="fab fa-linkedin"></i>LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/AlunaAlanaMotta" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/mottaalana0?igsh=MTZha2dmeGpoMHRqeQ==" target="_blank"
+                ><i class="fab fa-instagram"></i>Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p>&copy; 2025 Alana Motta. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>

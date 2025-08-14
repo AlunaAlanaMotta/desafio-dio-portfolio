@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+/* Centraliza imagens como na página inicial */
+.cabecalho__menu__link {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cabecalho__menu__link:hover {
+  color: #f700b0;
+}
+
+.apresentacao__conteudo__titulo {
+  font-size: 2.5rem;
+  color: #f700b0;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.apresentacao__conteudo__texto {
+  font-size: 1.2rem;
+  color: #ccc;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.destaque-p {
+  color: #f700b0;
+  font-weight: bold;
+}
+
+.imagem_familia {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 12px;
+}
+
+/* Deixa listas no mesmo estilo do texto */
+.apresentacao__conteudo ul {
+  margin-left: 2rem;
+  list-style-type: disc;
+  color: #ccc;
+}
+
+/* Estilo para vídeos */
+.apresentacao__conteudo iframe {
+  display: block;
+  max-width: 100%;
+  margin: 2rem auto;
+  border-radius: 12px;
+}
+
+/* Ajuste nos botões/links */
+.apresentacao__links__link {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.8rem 1.5rem;
+  background-color: #f700b0;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.apresentacao__links__link:hover {
+  background-color: #ff00cc;
+}
+
+.rodape {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  width: 100%;
+}
